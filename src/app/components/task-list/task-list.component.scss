@@ -1,0 +1,40 @@
+.task-list-container {
+  position: relative;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  width: 100%;
+  table {
+    width: 100%;
+    th.mat-header-cell,
+    td.mat-cell {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #e0e0e0;
+    }
+  }
+  th.mat-header-cell.title,
+  td.mat-cell.title {
+    max-width: 100px;
+  }
+
+  th.mat-header-cell.description,
+  td.mat-cell.description {
+    max-width: 300px;
+  }
+
+  .mat-elevation-z8 {
+    box-shadow: 0 6px 10px -1px rgba(0, 0, 0, 0.1),
+      0 4px 5px 0 rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.1);
+  }
+
+  button {
+    margin-right: 5px;
+  }
+  .mat-table {
+    overflow-x: auto;
+  }
+}
