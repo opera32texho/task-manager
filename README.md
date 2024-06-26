@@ -1,11 +1,12 @@
+Before starting the project install dependencies . Use command npm install
 # TaskManager
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.29.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.15.
 You must use Node version 14.16.0
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
